@@ -26,7 +26,9 @@ a {
 
 .hero {
    display: flex;
-   justify-content: center;
+   justify-content: space-evenly;
+   gap: 50px;
+   padding-bottom: 20px;
 }
 
 .heroHeader {
@@ -58,12 +60,26 @@ a {
 
 button {
     background: #3882f6;
+    color: white;
+}
+
+
+.img1 {
+    width: 200px;
+    Height: 100px;
 }
 
 .head2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+}
+
+
+.imagesContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
 }
 
 
