@@ -7,17 +7,27 @@ body {
 
 .headerContainer {
     display: flex;
-    justify-content: space-evenly;
-    padding: 15px;
-    margin: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    
 }
+
+
+
+.headerLogo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
 
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 15px;
-    margin-bottom: 50px;
+   
 }
 
 a {
@@ -26,10 +36,24 @@ a {
 
 .hero {
    display: flex;
-   justify-content: space-evenly;
+   justify-content: center;
+   align-items: center;
    gap: 50px;
-   padding-bottom: 20px;
+   padding-bottom: 100px;
+   padding-top: 40px;
+   
 }
+
+
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 300px;
+    margin-top: 40px;
+}
+
 
 .heroHeader {
   font-size: 48px;
@@ -49,22 +73,22 @@ a {
 }
 
 
-
-.headerLogo {
-    font-size: 24px;
-    color: #F9FAF8;
+.img1 {
+    width: 400px;
+    height: 150px;
+    margin-top: 40px;
 }
-
 
 
 
 .buttonTop {
     background: #3882f6;
     color: white;
+    padding: 5px 20px;
 }
 
 
-img {
+.img2 {
     width: 100px;
     Height: 100px;
     border: 2px solid blue;
@@ -88,11 +112,13 @@ img {
     max-width: 100px;
 }
 
+
 .quoteContainer {
     background: #E5E7EB;
     padding: 80px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -100,13 +126,15 @@ img {
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
-    max-width: 400px;
+    max-width: 500px;
    
 }
 
 
 .quoteAuthor {
-
+  padding-left: 250px;
+  padding-top: 20px;
+  font-weight: 700;
 }
 
 
