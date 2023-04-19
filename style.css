@@ -58,15 +58,16 @@ a {
 
 
 
-button {
+.buttonTop {
     background: #3882f6;
     color: white;
 }
 
 
-.img1 {
-    width: 200px;
+img {
+    width: 100px;
     Height: 100px;
+    border: 2px solid blue;
 }
 
 .head2 {
@@ -80,8 +81,12 @@ button {
   display: flex;
   justify-content: center;
   margin-bottom: 70px;
+  gap: 50px;
 }
 
+.part {
+    max-width: 100px;
+}
 
 .quoteContainer {
     background: #E5E7EB
@@ -95,6 +100,27 @@ button {
 }
 
 
-img {
-    
+.signUpContainer {
+  background:#3882f6;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 150px;
+  color:#E5E7EB;
+}
+
+
+.signUp {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ margin: 10px;
+}
+
+.buttonBottom {
+    background: #3882f6;
+    border: #E5E7EB 1px solid;
+    height: 30px;
+    margin-top: 33px;
+    color: #E5E7EB;
+
 }
